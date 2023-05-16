@@ -20,8 +20,8 @@ response = requests.request(
 )
 
 print(response)
-temp=json.loads(response.text)
-print(temp['body']['storage']['value'])
+#temp=json.loads(response.text)
+#print(temp['body']['storage']['value'])
 
 #print()
 #print(json.dumps(json.loads(response.content), sort_keys=True, indent=4, separators=(",", ": ")))
