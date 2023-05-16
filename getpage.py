@@ -1,12 +1,14 @@
 # This code sample uses the 'requests' library:
 # http://docs.python-requests.org
 import requests
+import os
 from requests.auth import HTTPBasicAuth
 import json
 
 url = "https://nitinsharma.atlassian.net/wiki/rest/api/content/163996?expand=body.storage"
+confluence_api_token = os.environ.get('CONFLUENCE_API_TOKEN')
 
-auth = HTTPBasicAuth("nitinsh3101@gmail.com", "ATATT3xFfGF0rd0SEut20SrFRKeFij1dVihd6MVGbvKdKO797ChUkHmmsuolxPci6RmdPeeU1jvMJzVYXUkOxd4E6ilddauq9_MUp1j4oG1Q_CdPUYOyWYrQV-uDbLn6RUaQq3PflJ0OvoUmn-l8XaugkroGvqquPT2LJJ_6H6ugtx-jCA5Xxfo=DBF64C65")
+auth = HTTPBasicAuth("nitinsh3101@gmail.com", confluence_api_token)
 
 headers = {
   "Accept": "application/json"
