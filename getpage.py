@@ -6,7 +6,7 @@ import json
 
 url = "https://nitinsharma.atlassian.net/wiki/rest/api/content/163996?expand=body.storage"
 
-auth = HTTPBasicAuth("nitinsh3101@gmail.com", "ATATT3xFfGF0L-1yIZJFsQRsOwpQc3t5FlxR-j0MCdnX1lI_QJfO9iTF1Tk2DhTGkYgJw1fwlZR-wB4-K9iKTpKfVw1JVQaXY0ILk9CGIZnTqOBzm_vn7645OF-2gX3TCAtLn5icWGXzTCrQEpIzECMpRzQ-BFkfPlseXKJ-HM57FlwsozzzmdA=277CCEC3")
+auth = HTTPBasicAuth("nitinsh3101@gmail.com", "ATATT3xFfGF0rd0SEut20SrFRKeFij1dVihd6MVGbvKdKO797ChUkHmmsuolxPci6RmdPeeU1jvMJzVYXUkOxd4E6ilddauq9_MUp1j4oG1Q_CdPUYOyWYrQV-uDbLn6RUaQq3PflJ0OvoUmn-l8XaugkroGvqquPT2LJJ_6H6ugtx-jCA5Xxfo=DBF64C65")
 
 headers = {
   "Accept": "application/json"
